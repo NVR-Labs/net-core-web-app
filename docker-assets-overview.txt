@@ -1,0 +1,7 @@
+.dockerignore: Contains a list of file and directory patterns to exclude when generating a build context.
+Dockerfile: the recipe for creating a final Docker image, is added to the project root. 
+https://docs.docker.com/engine/reference/builder/
+
+docker-compose.yml: The base Docker Compose file used to define the collection of images to be built and run with docker-compose build and docker-compose run, respectively.
+docker-compose.override.yml: An optional file, read by Docker Compose, containing configuration overrides for services.
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.1
